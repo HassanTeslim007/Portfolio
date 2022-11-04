@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/constants/language_constants.dart';
 import 'package:portfolio/core/util/size_config.dart';
 import 'package:scroll_loop_auto_scroll/scroll_loop_auto_scroll.dart';
 
@@ -24,31 +25,33 @@ class Profile extends StatelessWidget {
           child: ScrollLoopAutoScroll(
             scrollDirection: Axis.vertical,
             duration: const Duration(seconds: 800),
-            gap: 25,
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Center(
                 child: Text(
-                  'My Profile',
+                  translation(context).myProfile,
                   style: Theme.of(context).textTheme.headline2,
                 ),
               ),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
-              profileBullet(context, text: 'Name: Hassan Teslim B.'),
-              profileBullet(context, text: 'NickName: Alpha'),
-              profileBullet(context, text: 'Age: 22'),
-              profileBullet(context, text: 'Nationality: Nigerian'),
               profileBullet(context,
-                  text:
-                      'Favourite Quotes -\nSimplicity is the Ultimate Sophistication\nWhat is Worth doing, is worth doing well'),
+                  text: '${translation(context).name}: Hassan Teslim B.'),
+              profileBullet(context,
+                  text: '${translation(context).nickName}: Alpha'),
+              profileBullet(context, text: '${translation(context).age}: 22'),
+              profileBullet(context,
+                  text: '${translation(context).nationality}: Nigerian'),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
               Text(
-                'Experience',
+                translation(context).experience,
                 style: Theme.of(context).textTheme.headline2,
+              ),
+              SizedBox(
+                height: SizeConfig.fromHeight(context, 2),
               ),
               profileBullet(context,
                   text: 'Nupat Technologies -\nFlutter Developer'),
@@ -59,11 +62,14 @@ class Profile extends StatelessWidget {
               profileBullet(context,
                   text: 'HNG internships 8 -\nFlutter Developer - Prefinalist'),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
               Text(
-                'Projects',
+                translation(context).projects,
                 style: Theme.of(context).textTheme.headline2,
+              ),
+              SizedBox(
+                height: SizeConfig.fromHeight(context, 2),
               ),
               profileBullet(context,
                   text:
@@ -71,11 +77,14 @@ class Profile extends StatelessWidget {
               profileBullet(context,
                   text: 'Zuri Chat\n(Available on Playstore)'),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
               Text(
-                'Education',
+                translation(context).education,
                 style: Theme.of(context).textTheme.headline2,
+              ),
+              SizedBox(
+                height: SizeConfig.fromHeight(context, 2),
               ),
               profileBullet(context,
                   text: 'Federal University of Agriculture\nAbeokuta'),
@@ -86,11 +95,14 @@ class Profile extends StatelessWidget {
               profileBullet(context,
                   text: 'The Crescent International\nHigh School'),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
               Text(
-                'Certificates/Awards',
+                translation(context).certificateAndAwards,
                 style: Theme.of(context).textTheme.headline2,
+              ),
+              SizedBox(
+                height: SizeConfig.fromHeight(context, 2),
               ),
               profileBullet(context, text: 'Diploma in Web Design - BIIT'),
               profileBullet(context,
@@ -105,17 +117,21 @@ class Profile extends StatelessWidget {
                   text:
                       'Mathematics Brain Challenge Winner\nSchool of Engineerng and Sciences - DSAP'),
               SizedBox(
-                height: SizeConfig.fromHeight(context, 2),
+                height: SizeConfig.fromHeight(context, 3),
               ),
               Text(
-                'Intrests/Hobbies',
+                translation(context).intrestAndHobbies,
                 style: Theme.of(context).textTheme.headline2,
               ),
-              profileBullet(context, text: 'Mobile/Software Development'),
-              profileBullet(context, text: 'Millitary'),
-              profileBullet(context, text: 'Startegy Games'),
-              profileBullet(context, text: 'Volleyball'),
-              profileBullet(context, text: 'Reading'),
+              SizedBox(
+                height: SizeConfig.fromHeight(context, 2),
+              ),
+              profileBullet(context,
+                  text: translation(context).mobileAndSoftwareDevelopment),
+              profileBullet(context, text: translation(context).military),
+              profileBullet(context, text: translation(context).strategyGames),
+              profileBullet(context, text: translation(context).volleyball),
+              profileBullet(context, text: translation(context).reading),
             ]),
           ),
         ),

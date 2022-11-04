@@ -27,6 +27,7 @@ class Item extends StatelessWidget {
               CustomTheme().currentTheme == ThemeMode.dark ? kBlack : kWhite,
           child: Text(
             text,
+            textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall,
           ),
         ),

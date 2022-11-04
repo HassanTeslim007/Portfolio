@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/constants/language_constants.dart';
 import 'package:portfolio/core/theme/colors.dart';
 import 'package:portfolio/core/util/dialog_helper.dart';
 import 'package:portfolio/core/util/size_config.dart';
@@ -13,7 +14,7 @@ class Contact extends StatelessWidget {
       onTap: () {
         DialogHelper.contact(context);
       },
-      text: 'Contact',
+      text: translation(context).contact,
       innerRadius: SizeConfig.fontSize(context, 14),
       outerRadius: SizeConfig.fontSize(context, 16),
     );
@@ -45,7 +46,7 @@ _buildSkillChild(context) {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Reach me Anywhere',
+              translation(context).reachMeAnyWhere,
               style: Theme.of(context).textTheme.bodySmall!.copyWith(
                   color: Colors.black,
                   fontSize: SizeConfig.fontSize(context, 5)),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/constants/language_constants.dart';
 import 'package:portfolio/core/theme/colors.dart';
 import 'package:portfolio/core/util/dialog_helper.dart';
 import 'package:portfolio/core/util/size_config.dart';
@@ -14,7 +15,7 @@ class Skills extends StatelessWidget {
       onTap: () {
         DialogHelper.skill(context);
       },
-      text: 'Skills',
+      text: translation(context).skills,
       innerRadius: SizeConfig.fontSize(context, 20),
       outerRadius: SizeConfig.fontSize(context, 22),
     );
@@ -46,14 +47,14 @@ _buildSkillChild(context) {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Skills',
+              translation(context).skills,
               style: Theme.of(context)
                   .textTheme
                   .displayMedium!
                   .copyWith(color: Colors.black),
             ),
             Text(
-              'Languages and Frameworks',
+              translation(context).languagesAndFrameworks,
               style: Theme.of(context).textTheme.bodySmall!.copyWith(
                   color: Colors.black,
                   fontSize: SizeConfig.fontSize(context, 5)),
@@ -102,7 +103,7 @@ _buildSkillChild(context) {
               height: 10,
             ),
             Text(
-              'Version/Source Control Tools',
+              translation(context).versionSourceControlTools,
               style: Theme.of(context).textTheme.bodySmall!.copyWith(
                   color: Colors.black,
                   fontSize: SizeConfig.fontSize(context, 5)),
@@ -156,7 +157,7 @@ _buildSkillChild(context) {
             ),
             const Text('FireBase'),
             Text(
-              'State Management Tools',
+              translation(context).stateManagementTools,
               style: Theme.of(context).textTheme.bodySmall!.copyWith(
                   color: Colors.black,
                   fontSize: SizeConfig.fontSize(context, 5)),
