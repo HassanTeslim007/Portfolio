@@ -35,7 +35,7 @@ It's a simple design inspired by [Anél Henning](https://anellehenning.artstatio
 - Minor challenges implementing landscape mode without overflows but is being somewhat overcomed with single child scroll view, safe area and expanded widgets
 
 ## Appetize Link
--https://appetize.io/app/7geo3jhio2vonptwsafspe6tai?debug=true&proxy=intercept&device=pixel4&osVersion=11.0&scale=75
+- https://appetize.io/app/7geo3jhio2vonptwsafspe6tai?device=pixel6pro&osVersion=12.0&scale=50
 
 ## Github Repository
 - https://github.com/HassanTeslim007/Portfolio
