@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/constants/language_constants.dart';
 import 'package:portfolio/core/theme/colors.dart';
-import 'package:portfolio/core/util/dialog_helper.dart';
+import 'package:portfolio/core/helpers/dialog_helper.dart';
 import 'package:portfolio/core/util/size_config.dart';
-import 'package:portfolio/features/home/presentation/widgets/indicator.dart';
-import 'package:portfolio/features/home/presentation/widgets/portfolio_items.dart';
+
+import '../indicator.dart';
+import '../portfolio_items.dart';
 
 class Skills extends StatelessWidget {
   const Skills({super.key});

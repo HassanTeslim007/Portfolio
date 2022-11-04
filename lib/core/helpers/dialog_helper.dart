@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animated_dialog/flutter_animated_dialog.dart';
-import 'package:portfolio/features/home/presentation/widgets/dialogs/change_language.dart';
-import 'package:portfolio/features/home/presentation/widgets/dialogs/contact.dart';
-import 'package:portfolio/features/home/presentation/widgets/dialogs/skills.dart';
+import 'package:portfolio/features/portfolio/presentation/widgets/dialogs/change_language.dart';
+import 'package:portfolio/features/portfolio/presentation/widgets/dialogs/contact.dart';
+import 'package:portfolio/features/portfolio/presentation/widgets/dialogs/skills.dart';
 
 class DialogHelper {
   static skill(context) => showAnimatedDialog(

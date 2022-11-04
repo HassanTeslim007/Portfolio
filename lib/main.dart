@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/constants/language_constants.dart';
 import 'package:portfolio/core/theme/custom_theme.dart';
-import 'package:portfolio/features/home/presentation/view/home.dart';
+import 'package:portfolio/features/portfolio/presentation/view/home/home.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
@@ -24,7 +24,6 @@ class _MyAppState extends State<MyApp> {
 
   setLocale(Locale locale) {
     setState(() {
-      print(locale);
       _locale = locale;
     });
   }

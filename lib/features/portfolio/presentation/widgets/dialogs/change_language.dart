@@ -75,49 +75,6 @@ _buildSkillChild(context) {
                           ],
                         ),
                       )),
-              //   children: [
-              //     Image.asset(
-              //       'assets/icons/phone-call.png',
-              //       width: 20,
-              //     ),
-              //     const SizedBox(
-              //       width: 10,
-              //     ),
-              //     const Text('+234706 616 6577'),
-              //   ],
-              // ),
-              // const SizedBox(
-              //   height: 10,
-              // ),
-              // Row(
-              //   children: [
-              //     Image.asset(
-              //       'assets/icons/gmail.png',
-              //       width: 20,
-              //     ),
-              //     const SizedBox(
-              //       width: 10,
-              //     ),
-              //     const Text('hassanteslim12@gmail.com'),
-              //   ],
-              // ),
-              // const SizedBox(
-              //   height: 10,
-              // ),
-              // Row(
-              //   children: [
-              //     Image.asset(
-              //       'assets/icons/twitter.png',
-              //       width: 20,
-              //     ),
-              //     const SizedBox(
-              //       width: 10,
-              //     ),
-              //     const Text('@HassanTeslim3'),
-              //   ],
-              // ),
-              // const SizedBox(
-              //   height: 10,
             )
           ],
         ),
