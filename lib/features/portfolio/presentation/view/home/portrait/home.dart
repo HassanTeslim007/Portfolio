@@ -5,11 +5,11 @@ import 'package:portfolio/features/portfolio/presentation/widgets/change_languag
 import 'package:portfolio/features/portfolio/presentation/widgets/change_theme_button.dart';
 import 'package:portfolio/features/portfolio/presentation/widgets/dialogs/skills.dart';
 import 'package:portfolio/features/portfolio/presentation/widgets/portfolio_items.dart';
-import 'package:portfolio/features/presentation/view/about.dart';
 import 'package:portfolio/features/portfolio/presentation/view/profile/profile.dart';
 
 import '../../../widgets/dialogs/contact.dart';
 import '../../../widgets/profile_avatar.dart';
+import '../../about/about.dart';
 
 class HomePortrait extends StatelessWidget {
   const HomePortrait({super.key});
