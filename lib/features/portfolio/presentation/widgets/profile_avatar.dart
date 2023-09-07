@@ -16,8 +16,10 @@ class ProfileAvatar extends StatelessWidget {
           color: Colors.blue[50],
           shape: BoxShape.circle,
           image: const DecorationImage(
-            image: AssetImage('assets/avatar3.png'),
-          ),
+              image: AssetImage(
+                'assets/profile-image.jpg',
+              ),
+              fit: BoxFit.cover),
         ),
       ),
     );

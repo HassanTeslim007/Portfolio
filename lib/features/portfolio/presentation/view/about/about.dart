@@ -25,7 +25,7 @@ class About extends StatelessWidget {
                       child: const Icon(Icons.arrow_back_ios_new_outlined)),
                   Text(
                     translation(context).aboutMeHeading,
-                    style: Theme.of(context).textTheme.headline2,
+                    style: Theme.of(context).textTheme.displayMedium,
                   ),
                   const SizedBox()
                 ],

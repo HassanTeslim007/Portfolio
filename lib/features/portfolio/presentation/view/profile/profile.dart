@@ -30,7 +30,7 @@ class Profile extends StatelessWidget {
               Center(
                 child: Text(
                   translation(context).myProfile,
-                  style: Theme.of(context).textTheme.headline2,
+                  style: Theme.of(context).textTheme.displayMedium,
                 ),
               ),
               SizedBox(
@@ -48,7 +48,7 @@ class Profile extends StatelessWidget {
               ),
               Text(
                 translation(context).experience,
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.displayMedium,
               ),
               SizedBox(
                 height: SizeConfig.fromHeight(context, 2),
@@ -66,7 +66,7 @@ class Profile extends StatelessWidget {
               ),
               Text(
                 translation(context).projects,
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.displayMedium,
               ),
               SizedBox(
                 height: SizeConfig.fromHeight(context, 2),
@@ -81,7 +81,7 @@ class Profile extends StatelessWidget {
               ),
               Text(
                 translation(context).education,
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.displayMedium,
               ),
               SizedBox(
                 height: SizeConfig.fromHeight(context, 2),
@@ -99,7 +99,7 @@ class Profile extends StatelessWidget {
               ),
               Text(
                 translation(context).certificateAndAwards,
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.displayMedium,
               ),
               SizedBox(
                 height: SizeConfig.fromHeight(context, 2),
@@ -121,7 +121,7 @@ class Profile extends StatelessWidget {
               ),
               Text(
                 translation(context).intrestAndHobbies,
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.displayMedium,
               ),
               SizedBox(
                 height: SizeConfig.fromHeight(context, 2),

@@ -163,9 +163,9 @@ _buildSkillChild(context) {
                   color: Colors.black,
                   fontSize: SizeConfig.fontSize(context, 5)),
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Text('Stacked'),
                 Text('Vanilla'),
                 Text('Provider'),
